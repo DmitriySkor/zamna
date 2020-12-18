@@ -217,13 +217,17 @@ a.contact_btn{
  /* ABOUT SECTION*/
 
  .about_section{
-     margin-top: 200px;
+     margin-top: 160px;
  }
 
  .about_section p{
+    font-family: Gilmer;
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
-    line-height: 44px;
-    color: #ffffff;
+    font-size: 24px;
+    line-height: 36px;
+ }
+
+ .about_section p:first-child{
+     margin-bottom: 50px;
  }
