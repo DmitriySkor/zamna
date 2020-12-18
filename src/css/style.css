@@ -114,7 +114,7 @@ body{
 }
 
 .main_menu a{
-font-family: 'gilmerregular';
+font-family: 'Gilmer';
 font-style: normal;
 font-weight: 600;
 font-size: 18.5373px;
@@ -131,18 +131,19 @@ line-height: 22px;
 .hero_img{
     position: absolute;
     right: 0;
-    top:130px;
+    top:94px;
 }
 
 .hero_content{
-    margin-top: 172px;
+    margin-top: 128px;
 
 }
 
 .hero_content h1{
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: bold;
     font-size: 64px;
-    color: #ffffff;
-    font-weight: 700;
     line-height: 76px;
 }
 
@@ -150,26 +151,50 @@ line-height: 22px;
     color: #8F8F8F;
 }
 
+
+.hero_content p{
+    margin-top: 32px;
+    max-width: 460px;
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
 a.contact_btn{
-    margin-top: 51px;
+    margin-top: 48px;
     text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
-    width: 155px;
+    width: 196px;
     height: 48px;
     background:#ffffff;
     color: #000000;
     border-radius: 48px;
     box-shadow: 0px 2px 4px rgba(40, 41, 61, 0.04), 0px 8px 16px rgba(96, 97, 112, 0.16);
+
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;  
+}
+
+.contact_btn svg{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: -1px;
 }
 
  /* CLIENTS LIST SECTION */
 
  .clients_section{
-     margin-top: 200px;
+     margin-top: 159px;
  }
 
  .clients_list{
