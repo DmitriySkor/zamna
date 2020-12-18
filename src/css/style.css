@@ -1,3 +1,59 @@
+@font-face {
+    font-family: 'Gilmer';
+    src: url('../fonts/Gilmer-Heavy.woff2') format('woff2'),
+        url('../fonts/Gilmer-Heavy.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('../fonts/Gilmer-Bold.woff2') format('woff2'),
+        url('../fonts/Gilmer-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer Outline';
+    src: url('../fonts/Gilmer-Outline.woff2') format('woff2'),
+        url('../fonts/Gilmer-Outline.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('../fonts/Gilmer-Regular.woff2') format('woff2'),
+        url('../fonts/Gilmer-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('../fonts/Gilmer-Medium.woff2') format('woff2'),
+        url('../fonts/Gilmer-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('../fonts/Gilmer-Light.woff2') format('woff2'),
+        url('../fonts/Gilmer-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1200px;
 }
@@ -21,3 +77,128 @@
     padding-right: 20px;
     padding-left: 20px;
 }
+
+
+body{
+    background: #18191A;
+    color: #ffffff;
+    font-family: 'Gilmer';
+}
+
+.main_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 32px;
+    margin-top: 32px;
+}
+
+.main_header a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main_header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+} 
+
+.main_menu li{
+    margin-left: 32px;
+}
+
+.main_menu a{
+font-family: 'gilmerregular';
+font-style: normal;
+font-weight: 600;
+font-size: 18.5373px;
+line-height: 22px;
+}
+
+
+
+
+.first_section{
+    position: relative;
+}
+
+.hero_img{
+    position: absolute;
+    right: 0;
+    top:130px;
+}
+
+.hero_content{
+    margin-top: 172px;
+
+}
+
+.hero_content h1{
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 76px;
+}
+
+.hero_content h1 span{
+    color: #8F8F8F;
+}
+
+a.contact_btn{
+    margin-top: 51px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 155px;
+    height: 48px;
+    background:#ffffff;
+    color: #000000;
+    border-radius: 48px;
+    box-shadow: 0px 2px 4px rgba(40, 41, 61, 0.04), 0px 8px 16px rgba(96, 97, 112, 0.16);
+}
+
+ /* CLIENTS LIST SECTION */
+
+ .clients_section{
+     margin-top: 200px;
+ }
+
+ .clients_list{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+
+ .clients_item{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     height: 72px;
+ }
+
+
+ /* ABOUT SECTION*/
+
+ .about_section{
+     margin-top: 200px;
+ }
+
+ .about_section p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #ffffff;
+ }
