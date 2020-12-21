@@ -26,3 +26,4 @@ $().fancybox({
 jQuery(function ($) {
     $(".masked-input").mask("+38 ( 999 ) 999-99-99");
 });
+

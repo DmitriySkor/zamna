@@ -231,3 +231,322 @@ a.contact_btn{
  .about_section p:first-child{
      margin-bottom: 50px;
  }
+
+ .about_section__video{
+     width: 100%;
+     max-width: 559px;
+     height: 100%;
+     max-height: 315px;
+ }
+
+ video{
+     width: 100%;
+     height: auto;
+     max-height: 100%;
+ }
+
+ /* DOWNLOAD BOOK SECTION */
+
+ .download_book_section{
+     margin-top: 151px;
+ }
+
+ .download_book__wrap{
+    background: linear-gradient(96.19deg, #282828 0%, rgba(40, 40, 40, 0.3) 100.25%);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+ }
+
+ .download_book__left{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding-top: 57px;
+     padding-left: 48px;
+ }
+
+ .download_book__title{
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color:#ffffff;
+ }
+
+ a.learn_about_btn{
+     margin-top: 34px;
+     margin-bottom: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 171px;
+    height: 48px;
+    background:#ffffff;
+    color: #000000;
+    
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+
+    border-radius: 48px;
+    box-shadow: 0px 2px 4px rgba(40, 41, 61, 0.04), 0px 8px 16px rgba(96, 97, 112, 0.16);
+ }
+
+
+ .download_book__right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+ }
+
+ .download_book__right_bg{
+     position: absolute;
+     top: 0;
+     right: -20px;
+     z-index: 1;
+ }
+
+ .zamna_book_wrap{
+    margin-left: 90px;
+    width: 304px;
+    height: 347px;
+    margin-top: 28px; 
+    position: relative;
+    right: 0;
+    bottom:0;
+    z-index: 2;
+    background-color: rgba(60, 60, 60, 0.5);
+ }
+
+ .zamna_book{
+     padding-left: 24px;
+     padding-top: 32px;
+     width: 294px;
+     height: 347px;
+     background: #141516;
+     margin-right: 0px;
+     margin-left: 10px;
+ }
+
+ .zalma_book__text{
+     margin-top: 18px;
+ }
+
+ .zalma_book__text p{
+     margin-bottom: 10px;
+     margin-left: 2px;
+ }
+
+
+ /* WEBINAR SECTION */
+
+ .vebinar_section{
+     margin-top: 160px;
+ }
+
+ .webinar_section__title{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     margin-bottom: 72px;
+ }
+
+ .webinar_section__title h4{
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+ }
+
+ .webinar_section__title p{
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+    color: #CBCBCB;
+    width: 100%;
+    text-align: center;
+ }
+
+
+ /* .webinar_section__list{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     margin-top: 72px;
+ } */
+
+ a.webinar_section__item{
+    text-decoration: none;
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 37px;
+ }
+
+ .webinar_section__item{
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: flex-start;
+     max-width: 559px;
+    height: 100%;
+    max-height: 315px;
+ }
+
+ .webinar_section__item img{
+     width: 100%;
+     max-width: 559px;
+     height: auto;
+ }
+
+ .webinar_section_content{
+    width: 100%;
+    max-width: 559px;
+    height: 100%;
+    max-height: 315px;
+ }
+
+ .webiner_section__text{
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding-top: 16px;
+    padding-left: 24px;
+ }
+
+ /* BLOG PREVIEW SECTION */
+
+ .blog_prev_section{
+     margin-top: 186px;
+     margin-bottom: 48px;
+ }
+
+
+ .blog_section__title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 72px;
+}
+
+.blog_section__title h4{
+   font-family: Gilmer;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 44px;
+   color: #ffffff;
+    width: 100%;
+    text-align: center;
+
+   
+}
+
+.blog_section__title p{
+   font-family: Gilmer;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 42px;
+   color: #CBCBCB;
+   width: 100%;
+   text-align: center;  
+}
+
+.blog_prev__item{
+    width: 100%;
+    max-width: 558px;
+    height: auto;
+}
+
+.blog_prev__img{
+    width: 100%;
+    max-width: 558px;
+    height: 100%;
+    max-height: 314px;
+}
+
+.blog_prev__img img{
+    width: 100%;
+    height: auto;
+}
+
+.blog_prev__text{
+    margin-top: 24px;
+}
+
+.blog_prev__title{
+    margin-bottom: 16px;
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #D7D7D7;
+}
+
+.blog_prev__desc{
+    margin-bottom: 16px;
+    max-width: 362px;
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #C3C3C3;
+}
+
+.datetime{
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+/* ADVANTAGE SECTION */
+
+.advantage_section{
+    margin-top: 160px;
+}
+
+.advantage_section__title{
+    margin-bottom: 55px;
+}
+
+.advantage_section__title h4{
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #CBCBCB;
+}
