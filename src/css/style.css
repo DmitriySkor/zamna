@@ -550,3 +550,100 @@ a.contact_btn{
     text-align: center;
     color: #CBCBCB;
 }
+
+.advantage_item_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantage__main_item{
+    width: 100%;
+    max-width: 558px;
+    border: 1px solid #505050;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    padding-left: 98px;
+}
+
+.advantage__main_item h6{
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color:#ffffff;
+    margin-bottom: 8px;
+}
+
+.advantage__main_item p{
+    width: 100%;
+    max-width: 362px;
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.advantage_item{
+    margin-top: 40px;
+    width: 100%;
+    max-width: 345px;
+}
+
+.advantage_item__title{
+    margin-top: 4px;
+    margin-bottom: 15px;
+
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #EBEBEB;
+}
+
+.advantage_item_subtitle{
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #C3C3C3;
+    margin: 0;
+}
+
+.advantage_item img{
+    width: 100%;
+    max-width: 40px;
+    height: 100%;
+    max-height: 40px;
+}
+
+
+/* CLIENTS SAY SECTION */
+
+.client_say_section{
+    margin-top: 80px;
+}
+
+.client_say__title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.client_say__title h3{
+    text-align: left;
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 64px;   
+}
+
