@@ -872,4 +872,75 @@ a.hiring_mail_btn {
 }
 
 
+.button_form_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+.button_forms{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 48px;
+    background: #fff;
+    color: #000;
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+    border-radius: 48px;
+    border:none;
+    outline: none;
+}
+
+/* FOOTER */
+
+.main_footer{
+    margin-top: 128px;
+}
+
+.footer_contacts{
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.footer_contacts a{
+    text-decoration:none;
+    color: #ffffff;
+}
+
+.footer_social_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:flex-start;
+}
+
+.footer_socials{
+    width: 100%;
+    max-width: 200px;
+    margin-right: 62px;
+}
+
+.footer_socials p{
+font-family: Gilmer;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+}
+
+.social_link{
+    
+}
+
 
