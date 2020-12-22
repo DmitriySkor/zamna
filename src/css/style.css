@@ -913,6 +913,10 @@ a.hiring_mail_btn {
     line-height: 36px;
 }
 
+.footer_contacts p{
+    margin-bottom: 7px;
+} 
+
 .footer_contacts a{
     text-decoration:none;
     color: #ffffff;
@@ -937,10 +941,51 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 22px;
+margin-bottom: 21px;
 }
 
 .social_link{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 145px;
 }
 
+/* BOTTOM LINE */
 
+.bottom_line{
+    margin-top: 72px;
+    margin-bottom: 48px;
+}
+
+.bottom_line_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.copy{
+font-family: 'Gilmer';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+}
+
+.politics a{
+    text-decoration: none;
+    font-family: 'Gilmer';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+color: #ffffff;
+}
+
+.politics a:first-child{
+    margin-right: 55px;
+}
