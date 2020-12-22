@@ -134,6 +134,11 @@ line-height: 22px;
     top:94px;
 }
 
+.hero_img_small{
+    position: absolute;
+    display: none;
+}
+
 .hero_content{
     margin-top: 128px;
 
@@ -211,6 +216,7 @@ a.contact_btn{
      justify-content: center;
      align-items: center;
      height: 72px;
+     width: 140px;
  }
 
 
