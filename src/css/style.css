@@ -628,6 +628,7 @@ a.contact_btn{
 
 .client_say_section{
     margin-top: 80px;
+    background-color: #1B1C1D;
 }
 
 .client_say__title{
@@ -644,6 +645,170 @@ a.contact_btn{
     font-weight: 600;
     font-size: 40px;
     line-height: 56px;
-    margin-bottom: 64px;   
+    margin-bottom: 64px;
+    margin-top: 71px;   
 }
+
+/* SLIDER */
+
+.item_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom:96px;
+}
+
+.slide_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.item_logo{
+    width: 100%;
+    max-width: 242px;
+    height: 100%;
+    max-height: 38px;
+}
+
+.item_logo img{
+    width: 100%;
+    height: auto;
+    max-width: 242px;
+    max-height: 38px;
+}
+
+
+.item_content__text{
+    width: 100%;
+    max-width: 460px;
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 48px;
+}
+
+.slide_video{
+    width: 100%;
+    height: auto;
+    max-width: 556px;
+    max-height: 340px;
+}
+
+.owl-dots   {
+    position: absolute;
+    bottom:95px;
+    display: flex;
+}
+
+
+
+.main_carousel button.owl-dot{
+    /* background-image: url(../img/line-disable.png); */
+    width: 63px;
+    height: 2px;
+    display: block;
+    background: #505050 !important;
+
+}
+
+.main_carousel button.owl-dot.active{
+    /* background-image: url(../img/line-active.png); */
+    width: 63px;
+    height: 2px;
+    display: block;
+    background:rgb(255, 255, 255) !important;
+}
+
+button:focus{
+    outline: none !important;
+}
+
+/* HIRING SECTION */
+
+.hiring_section{
+    margin-top: 80px;
+}
+
+.hiring_content{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(96.19deg, #282828 0%, rgba(40, 40, 40, 0.3) 100.25%);
+}
+
+.hiring_content h3{
+    font-family: Gilmer;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 56px;
+color: #ffffff;
+}
+
+.hiring_content p{
+    margin-top: 16px;
+    margin-bottom: 48px;
+    font-family: Gilmer;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+color: #C3C3C3;
+}
+
+a.hiring_mail_btn {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 48px;
+    background: #fff;
+    color: #000;
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+    border-radius: 48px;
+}
+
+
+/* CONTACT FORM SECTION */
+
+.contact_form_section{
+    margin-top: 160px;
+}
+
+.form_section__content{
+    width: 100%;
+    max-width: 453px;
+    font-family: Gilmer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #F7F9FC;
+}
+
+.contact_form{
+    width: 100%;
+    max-width: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 

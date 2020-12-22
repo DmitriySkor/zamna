@@ -1,6 +1,25 @@
 // Инициализация owlCarousel
 $(document).ready(function () {
-    $(".owl-carousel").owlCarousel();
+    $('.main_carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        dots:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                loop:true
+            },
+            600:{
+                items:1,
+                loop:true
+            },
+            1000:{
+                items:1,
+                loop:false
+            }
+        }
+    });
 });
 
 // Инициализация jQueryFormStyler
