@@ -802,13 +802,74 @@ a.hiring_mail_btn {
     color: #F7F9FC;
 }
 
+.contact_form_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
+}
+
 .contact_form{
     width: 100%;
     max-width: 460px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
 }
+
+.contact_form form input, textarea{
+    width: 100%;
+    outline: none;
+}
+
+.contact_form form input{
+    height: 48px;
+    background:#282828;
+    color: #ffffff;
+    border:none;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 28px;
+    padding-left: 10px;
+}
+    input::-webkit-input-placeholder {color:#ffffff; font-size: 16px; padding-left: 10px;}
+    input::-moz-placeholder          {color:#ffffff; font-size: 16px; padding-left: 10px;}/* Firefox 19+ */
+    input:-moz-placeholder           {color:#ffffff; font-size: 16px; padding-left: 10px;}/* Firefox 18- */
+    input:-ms-input-placeholder      {color:#ffffff; font-size: 16px; padding-left: 10px;}
+
+    input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+    input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+    input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+    input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+    input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+    input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+    input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+    input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+    .contact_form form textarea{
+        background:#282828;
+        color: #ffffff;
+        border:none;
+        margin-bottom: 24px;
+        font-size: 16px;
+        line-height: 28px;
+        padding-left: 10px;
+    }
+
+    textarea::-webkit-input-placeholder {color:#ffffff; font-size: 16px; padding-left: 10px;}
+    textarea::-moz-placeholder          {color:#ffffff; font-size: 16px; padding-left: 10px;}/* Firefox 19+ */
+    textarea:-moz-placeholder           {color:#ffffff; font-size: 16px; padding-left: 10px;}/* Firefox 18- */
+    textarea:-ms-input-placeholder      {color:#ffffff; font-size: 16px; padding-left: 10px;}
+
+    textarea::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+    textarea::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+    textarea:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+    textarea:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+    textarea:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+    textarea:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+    textarea:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+    textarea:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+.display_none{
+    display: none;
+}
+
 
 
