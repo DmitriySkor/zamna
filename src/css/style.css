@@ -995,3 +995,33 @@ color: #ffffff;
 .politics a:first-child{
     margin-right: 55px;
 }
+
+
+/* ------------------------------COMPANY PAGE------------------------------- */
+
+/* TRANSFORMING SECTION */
+
+.company_transforming_section{
+    margin-top: 116px;
+}
+
+.company_transforming__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.company_transmorming_content{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    color: #C3C3C3;
+}
+
+.company_transmorming_content p{
+    margin-bottom: 35px;
+}
