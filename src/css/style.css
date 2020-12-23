@@ -1025,3 +1025,34 @@ color: #ffffff;
 .company_transmorming_content p{
     margin-bottom: 35px;
 }
+
+.company_transmorming_content p:last-child{
+    margin-bottom: 0px;;
+}
+
+/* MISSION SECTION */
+
+.company_missin_section{
+    margin-top: 64px;
+}
+
+.mission_section__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+    color: #CBCBCB;
+    margin-bottom: 82px;
+}
+
+.mission_section__title p{
+    margin-bottom: 0;
+}
+
+.mission_section__item{
+    width: 100%;
+    max-width: 237px;
+}
+
+
