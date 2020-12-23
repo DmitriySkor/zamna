@@ -1258,49 +1258,4 @@ textarea:focus:-ms-input-placeholder {
 
 .company_transmorming_content p{
     margin-bottom: 35px;
-<<<<<<< HEAD
 }
-
-.company_transmorming_content p:last-child{
-    margin-bottom: 0px;;
-}
-
-/* MISSION SECTION */
-
-.company_missin_section{
-    margin-top: 64px;
-}
-
-.mission_section__title{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 42px;
-    text-align: center;
-    color: #CBCBCB;
-    margin-bottom: 82px;
-}
-
-.mission_section__title p{
-    margin-bottom: 0;
-}
-
-.mission_section__item{
-    width: 100%;
-    max-width: 237px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-    color: #ffffff;
-}
-
-.mission_item_content{
-    color: #C3C3C3;
-}
-
-
-
-=======
-}
->>>>>>> dc4199864972095709480c5189c78d6682082120
