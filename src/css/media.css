@@ -12,7 +12,7 @@
 }
 
 @media (min-width: 0) and (max-width: 1199px) {
-    
+
 }
 
 @media (min-width: 0) and (max-width: 991px) {
@@ -21,52 +21,52 @@
         height: auto;
     }
 
-    .about_section p{
+    .about_section p {
         font-size: 22px;
     }
 
-    .slide_video{
+    .slide_video {
         max-width: 475px;
     }
 }
 
 @media (min-width: 0) and (max-width: 767px) {
-    .main_menu{
+    .main_menu {
         display: none;
-    }   
+    }
 
-    .hero_img{
+    .hero_img {
         width: 365px;
         height: auto;
     }
 
-    .clients_item:last-child{
+    .clients_item:last-child {
         display: none;
     }
 
-    .about_section__video{
+    .about_section__video {
         margin: 0 auto;
     }
 
-    .zamna_book_wrap{
+    .zamna_book_wrap {
         margin-left: 0;
     }
 
-    a.webinar_section__item{
+    a.webinar_section__item {
         margin: 0 auto;
         margin-bottom: 37px;
     }
 
-    .blog_prev__item{
+    .blog_prev__item {
         margin: 0 auto;
         margin-bottom: 40px;
     }
 
-    .advantage__main_item{
+    .advantage__main_item {
         margin-top: 40px;
     }
 
-    .item_wrap{
+    .item_wrap {
         justify-content: center;
     }
 
@@ -77,100 +77,102 @@
         justify-content: center;
     }
 
-    .contact_form_wrap{
+    .contact_form_wrap {
         justify-content: center;
         margin-top: 50px;
     }
 
-    .footer_contacts{
+    .footer_contacts {
         text-align: center;
     }
 
-    .footer_social_wrap{
+    .footer_social_wrap {
         justify-content: center;
-        align-items:center;
+        align-items: center;
     }
 
-    .footer_socials{
+    .footer_socials {
         max-width: 100%;
         text-align: center;
         margin-right: 0px;
     }
 
-    .social_link{
+    .social_link {
         justify-content: center;
         max-width: 100%;
     }
 
-    .social_link a{
+    .social_link a {
         margin-right: 25px;
-    } 
+    }
 
-    .copyright, .politics{
+    .copyright, .politics {
         width: 100%;
         text-align: center;
     }
 
-
+    .mobile_menu {
+        display: block;
+    }
 }
 
 @media (min-width: 0) and (max-width: 575px) {
-    .hero_content{
+    .hero_content {
         margin-top: 79px;
     }
-    
-    .hero_content h1{
+
+    .hero_content h1 {
         font-size: 40px;
     }
 
-    .hero_img{
+    .hero_img {
         display: none;
     }
 
-    .hero_img_small{
+    .hero_img_small {
         display: block;
         right: 0;
-        top:19%;
+        top: 19%;
     }
 
 }
 
 @media (min-width: 0) and (max-width: 479px) {
-    .clients_section{
+    .clients_section {
         margin-top: 60px;
     }
-    
+
     .hero_content h1 {
         font-size: 40px;
         width: 220px;
         line-height: 56px;
     }
 
-    .about_section{
+    .about_section {
         margin-top: 77px;
     }
 
-    .about_section p{
+    .about_section p {
         font-size: 24px;
     }
 
-    .about_section p:last-child{
+    .about_section p:last-child {
         margin-bottom: 48px;
     }
 
-    .download_book_section{
+    .download_book_section {
         margin-top: 64px;
     }
 
-    .download_book__title{
+    .download_book__title {
         font-size: 24px;
     }
 
-    .vebinar_section{
+    .vebinar_section {
         margin-top: 64px;
     }
 
-    .webinar_section__title p{
+    .webinar_section__title p {
         font-size: 18px;
     }
 
@@ -178,28 +180,28 @@
         margin-bottom: 42px;
     }
 
-    .blog_prev_section{
+    .blog_prev_section {
         margin-top: 72px;
     }
 
-    .blog_section__title{
+    .blog_section__title {
         margin-bottom: 31px;
     }
 
-    .blog_section__title p{
+    .blog_section__title p {
         font-size: 18px;
         width: 185px;
     }
 
-    .blog_prev__title{
+    .blog_prev__title {
         font-size: 22.7px;
     }
 
-    .advantage_section{
+    .advantage_section {
         margin-top: 72px;
     }
 
-    .advantage_section__title h4{
+    .advantage_section__title h4 {
         font-size: 24px;
     }
 
@@ -207,7 +209,7 @@
         margin-bottom: 32px;
     }
 
-    .advantage__main_item{
+    .advantage__main_item {
         padding: 0;
         width: 343px;
         height: 276px;
@@ -216,40 +218,40 @@
         padding-top: 25%;
     }
 
-    .advantage_item{
+    .advantage_item {
         text-align: center;
     }
 
-    .client_say__title h3{
+    .client_say__title h3 {
         font-size: 32px;
         margin-bottom: 48px;
-    margin-top: 48px;
+        margin-top: 48px;
     }
 
-    .hiring_content h3{
+    .hiring_content h3 {
         font-size: 32px;
         text-align: center;
     }
 
-    .hiring_content p{
+    .hiring_content p {
         width: 228px;
-    text-align: center;
+        text-align: center;
     }
 
-    .contact_form_section{
+    .contact_form_section {
         margin-top: 72px;
     }
 
-    .form_section__content{
+    .form_section__content {
         font-size: 25px;
         line-height: 36px;
     }
 
-    .button_form_wrap{
+    .button_form_wrap {
         justify-content: flex-start;
     }
 
-    .footer_contacts{
+    .footer_contacts {
         font-size: 22px;
     }
 }

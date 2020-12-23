@@ -1,3 +1,11 @@
+// Мобильное меню
+document.getElementById("mobile_menu_open_btn").onclick = function (e){
+    e.preventDefault();
+    document.querySelector("body").classList.toggle("fix");
+    document.getElementById("mobile_menu_open_btn").classList.toggle("active");
+    document.getElementById("mobile_menu_list_ulli").classList.toggle("active");
+}
+
 // Инициализация owlCarousel
 $(document).ready(function () {
     $('.main_carousel').owlCarousel({
