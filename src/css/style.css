@@ -1053,6 +1053,16 @@ color: #ffffff;
 .mission_section__item{
     width: 100%;
     max-width: 237px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
 }
+
+.mission_item_content{
+    color: #C3C3C3;
+}
+
 
 
