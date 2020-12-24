@@ -92,7 +92,7 @@ body.fix {
     bottom: 0;
 }
 
-a:focus{
+a:focus {
     outline: none;
 }
 
@@ -1239,11 +1239,11 @@ textarea:focus:-ms-input-placeholder {
 
 /* TRANSFORMING SECTION */
 
-.company_transforming_section{
+.company_transforming_section {
     margin-top: 116px;
 }
 
-.company_transforming__title{
+.company_transforming__title {
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
@@ -1252,7 +1252,7 @@ textarea:focus:-ms-input-placeholder {
     margin-bottom: 24px;
 }
 
-.company_transmorming_content{
+.company_transmorming_content {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1260,7 +1260,7 @@ textarea:focus:-ms-input-placeholder {
     color: #C3C3C3;
 }
 
-.company_transmorming_content p{
+.company_transmorming_content p {
     margin-bottom: 35px;
 }
 
@@ -1409,7 +1409,7 @@ margin-top: 16px;
 
 
 /*Bread Crumbs*/
-.bread__crumbs{
+.bread__crumbs {
     margin: 53px 0 18px;
 }
 
@@ -1423,7 +1423,7 @@ margin-top: 16px;
 }
 
 /*Premium Post*/
-.premium__post_head{
+.premium__post_head {
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -1432,7 +1432,7 @@ margin-top: 16px;
     margin-top: 18px;
 }
 
-.premium__post_text{
+.premium__post_text {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1441,7 +1441,7 @@ margin-top: 16px;
     margin-top: 16px;
 }
 
-.premium__post_img{
+.premium__post_img {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -1455,9 +1455,6 @@ margin-top: 16px;
 .premium__post_label {
     width: 100%;
     height: 55px;
-    background: linear-gradient(180deg,rgba(24,25,26,.3) 0,rgba(24,25,26,0) 100%);
-    -webkit-backdrop-filter: blur(4px);
-    backdrop-filter: blur(4px);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -1483,7 +1480,7 @@ margin-top: 16px;
     width: max-content;
 }
 
-.premium__post_link{
+.premium__post_link {
     margin-top: 32px;
 }
 
@@ -1514,7 +1511,7 @@ margin-top: 16px;
     border-top: 0.5px solid #282828;
 }
 
-.block-head{
+.block-head {
     margin-top: 30px;
     font-style: normal;
     font-weight: 600;
@@ -1549,7 +1546,7 @@ a.sort-link.active {
     position: relative;
 }
 
-a.sort-link.active:before{
+a.sort-link.active:before {
     content: '';
     width: 150%;
     height: 2px;
@@ -1583,7 +1580,7 @@ a.sort-link.active:before{
     margin-left: 30px;
 }
 
-.short__post_info-head{
+.short__post_info-head {
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -1591,7 +1588,7 @@ a.sort-link.active:before{
     color: #D7D7D7;
 }
 
-.short__post_info-text{
+.short__post_info-text {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1600,7 +1597,7 @@ a.sort-link.active:before{
     margin-top: 8px;
 }
 
-.short__post_info-date{
+.short__post_info-date {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1609,7 +1606,7 @@ a.sort-link.active:before{
     margin-top: 13px;
 }
 
-.short__post_info-link{
+.short__post_info-link {
     margin-top: 42px;
 }
 
@@ -1634,7 +1631,7 @@ a.sort-link.active:before{
 .short__post_label {
     width: 100%;
     height: 55px;
-    background: linear-gradient(180deg,rgba(24,25,26,.3) 0,rgba(24,25,26,0) 100%);
+    background: linear-gradient(180deg, rgba(24, 25, 26, .3) 0, rgba(24, 25, 26, 0) 100%);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     display: flex;
@@ -1643,7 +1640,7 @@ a.sort-link.active:before{
     padding: 0 18px;
 }
 
-.short__post_label-text{
+.short__post_label-text {
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -1690,7 +1687,7 @@ a.webinars__link {
     margin-top: 15px;
 }
 
-.post__info_date{
+.post__info_date {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1743,7 +1740,7 @@ a.webinars__link {
     color: #C3C3C3;
 }
 
-.post__text img{
+.post__text img {
     margin-top: 34px;
 }
 
@@ -1769,7 +1766,7 @@ a.webinars__link {
     color: #FFFFFF;
 }
 
-.post__text ul{
+.post__text ul {
     margin: 0;
     padding: 0 0 0 10px;
 }

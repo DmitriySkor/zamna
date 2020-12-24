@@ -1,5 +1,5 @@
 // Мобильное меню
-document.getElementById("mobile_menu_open_btn").onclick = function (e){
+document.getElementById("mobile_menu_open_btn").onclick = function (e) {
     e.preventDefault();
     document.querySelector("body").classList.toggle("fix");
     document.getElementById("mobile_menu_open_btn").classList.toggle("active");
@@ -9,22 +9,22 @@ document.getElementById("mobile_menu_open_btn").onclick = function (e){
 // Инициализация owlCarousel
 $(document).ready(function () {
     $('.main_carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        dots:true,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-                loop:true
+        loop: true,
+        margin: 10,
+        dots: true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                loop: true
             },
-            600:{
-                items:1,
-                loop:true
+            600: {
+                items: 1,
+                loop: true
             },
-            1000:{
-                items:1,
-                loop:false
+            1000: {
+                items: 1,
+                loop: false
             }
         }
     });
@@ -53,5 +53,3 @@ $(document).ready(function () {
 jQuery(function ($) {
     $(".masked-input").mask("+38 ( 999 ) 999-99-99");
 });
-
-//

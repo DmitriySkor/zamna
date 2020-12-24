@@ -232,6 +232,14 @@
         line-height: 36px;
         color: #D7D7D7;
     }
+
+    .nav-item {
+        margin: 0 24px 24px;
+    }
+
+    a.webinars__link {
+        margin: 26px 0 0;
+    }
 }
 
 @media (min-width: 0) and (max-width: 479px) {
