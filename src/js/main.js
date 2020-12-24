@@ -44,13 +44,14 @@ $(document).ready(function () {
 })(jQuery);
 
 // Инициализация Fancybox
-$().fancybox({
-    selector: '[data-fancybox="gallery"]',
-    loop: true
-});
+// $().fancybox({
+//     selector: '[data-fancybox="gallery"]',
+//     loop: true
+// });
 
 //Инициализация маски ввода телефона
 jQuery(function ($) {
     $(".masked-input").mask("+38 ( 999 ) 999-99-99");
 });
 
+//
