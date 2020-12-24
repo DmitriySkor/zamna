@@ -30,3 +30,12 @@ $(document).ready(function () {
     });
 });
 
+// Q&A
+$( function() {
+    $( "#accordion" ).accordion({
+        header: '> .accordion_info > .accordion__head',
+        heightStyle: "content",
+        active: true,
+        collapsible: true
+    });
+} );

@@ -12,7 +12,19 @@
 }
 
 @media (min-width: 0) and (max-width: 1199px) {
+    .accordion_info {
+        padding: 24px 180px 24px 40px;
+    }
 
+    .accordion__head::before {
+        right: -100px;
+    }
+
+    .question__imag img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }
 
 @media (min-width: 0) and (max-width: 991px) {
@@ -256,6 +268,27 @@
 
     .download_book__left{
         padding-left: 28px;
+    }
+
+    .accordion_info {
+        padding: 20px;
+    }
+
+    .accordion__head::before {
+        right: 0;
+        bottom: 0;
+    }
+
+    .accordion__head h3 {
+        padding-right: 40px;
+    }
+
+    .accordion_info {
+        margin-bottom: 32px;
+    }
+
+    .question__head {
+        min-height: 285px;
     }
 }
 
