@@ -1264,6 +1264,150 @@ textarea:focus:-ms-input-placeholder {
     margin-bottom: 35px;
 }
 
+.mission_section__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 42px;
+    color: #CBCBCB;
+    margin-top: 64px;
+    margin-bottom: 82px;
+}
+
+.mission_section__title p{
+    margin: 0;
+}
+
+
+.mission_section_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 245px;
+}
+
+.mission_item_wrap{
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+}
+
+.mission_item_title{
+    margin-bottom: 10px;
+}
+
+.mission_item_content{
+    color: #C3C3C3;
+}
+
+.big_item_dot{
+    margin-right: 5px;
+}
+
+.company_mission_section{
+    margin-bottom: 78px;
+}
+
+/* COMPANY PAGE SECTION */
+
+.company_press_section{
+   background: #222323;
+   padding-top: 80px;
+   padding-bottom: 90px;
+}
+
+.press_section_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 55px;
+}
+
+a.press_section_item{
+    width: 100%;
+    max-width: 340px;
+    margin-bottom: 70px;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.press_item_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 40px;
+}
+
+.press_item_img{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.company_awards_section{
+    margin-top: 40px;
+}
+
+.awards_section_title{
+    font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 56px;
+margin-bottom: 56px;
+}
+
+a.awards_section_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+
+    width: 100%;
+    max-width: 267px;
+    height: 100%;
+    min-height: 197px;
+    text-decoration: none;
+    color: #D7D7D7;
+    border-bottom: 2px solid #505050;
+    transition: .5s ease;
+}
+
+a.awards_section_item:hover{
+    border-bottom: 2px solid #ffffff;
+    transition: .5s ease;
+}
+
+.awards_item_text{
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+color: #D7D7D7;
+margin-top: 16px;
+}
+
+.awards_item_img{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+
+
+
 /*Bread Crumbs*/
 .bread__crumbs{
     margin: 53px 0 18px;
