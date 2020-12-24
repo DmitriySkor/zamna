@@ -145,6 +145,19 @@
     .nav-item {
         margin: 0 24px;
     }
+
+    /* COMPANY */
+    .company_item_wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        margin-bottom: 100px;
+    }
+
+    .company_mission_section{
+        margin-bottom: 0;
+    }
 }
 
 @media (min-width: 0) and (max-width: 575px) {
@@ -239,6 +252,10 @@
 
     a.webinars__link {
         margin: 26px 0 0;
+    }
+
+    .download_book__left{
+        padding-left: 28px;
     }
 }
 
