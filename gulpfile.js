@@ -12,10 +12,10 @@ const cleans = require('del');
 const concat = require('gulp-concat');
 
 // Модуль (плагин) для очистки и минификации файлов CSS
-const cleanCSS = require('gulp-clean-css');
+// const cleanCSS = require('gulp-clean-css');
 
 // Модуль (плагин) для очистки и минификации файлов JS
-const uglify = require('gulp-uglify-es').default;
+// const uglify = require('gulp-uglify-es').default;
 
 // Модуль (плагин) для расстановки автопрефиксов в CSS
 const autoprefixer = require('gulp-autoprefixer');
@@ -73,9 +73,9 @@ function styles() {
         }))
 
         // Минификация CSS
-        .pipe(cleanCSS({
-            level: 2
-        }))
+        // .pipe(cleanCSS({
+        //     level: 2
+        // }))
 
         // Копирование CSS в папку build
         .pipe(gulp.dest('./build/css'))
@@ -92,9 +92,9 @@ function scripts() {
         .pipe(concat('script.js'))
 
         //Минификация JS
-        .pipe(uglify({
-            toplevel: true
-        }))
+        // .pipe(uglify({
+        //     toplevel: true
+        // }))
 
         // Копирование JS в папку build
         .pipe(gulp.dest('./build/js'))
