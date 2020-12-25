@@ -25,6 +25,10 @@
         top: 0;
         left: 0;
     }
+
+    .webinar__video_link {
+        min-height: 544px;
+    }
 }
 
 @media (min-width: 0) and (max-width: 991px) {
@@ -54,6 +58,19 @@
         width: 100%;
         margin-left: 0;
     }
+
+    .webinar__video_link {
+        min-height: 444px;
+    }
+
+    .webinar__foot_share-link a {
+        margin-left: 15px;
+    }
+
+    .webinar__foot_share-text {
+        margin-right: 30px;
+    }
+
 }
 
 @media (min-width: 0) and (max-width: 767px) {
@@ -169,6 +186,19 @@
 
     .company_mission_section{
         margin-bottom: 0;
+    }
+
+    .webinar__foot .webinar__speaker {
+        display: none;
+    }
+
+    .webinar__foot_share {
+        flex-direction: column;
+    }
+
+    .webinar__foot_share-text {
+        margin-right: 0;
+        margin-bottom: 24px;
     }
 }
 
@@ -289,6 +319,22 @@
 
     .question__head {
         min-height: 285px;
+    }
+
+    .webinar__video_link {
+        min-height: 344px;
+    }
+
+    .webinar__data_time-info {
+        margin-right: 24px;
+    }
+
+    .webinar__data_time-info::before {
+        right: -13px;
+    }
+
+    .grey__text {
+        text-align: left;
     }
 }
 
