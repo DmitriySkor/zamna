@@ -31,11 +31,19 @@ $(document).ready(function () {
 });
 
 // Q&A
-$( function() {
-    $( "#accordion" ).accordion({
+$(function () {
+    $("#accordion").accordion({
         header: '> .accordion_info > .accordion__head',
         heightStyle: "content",
         active: true,
         collapsible: true
     });
-} );
+});
+
+// Инициализация Fancybox
+$(document).ready(function () {
+    $().fancybox({
+        selector: '[data-fancybox="gallery"]',
+        loop: true
+    });
+});
