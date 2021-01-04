@@ -445,6 +445,7 @@ a.webinar_section__item {
     left: 0;
     padding-top: 16px;
     padding-left: 24px;
+    font-size: 20px;
 }
 
 /* BLOG PREVIEW SECTION */
@@ -781,7 +782,7 @@ a.hiring_mail_btn {
 /* CONTACT FORM SECTION */
 
 .contact_form_section {
-    margin-top: 160px;
+    margin-top: 110px;
 }
 
 .form_section__content {
@@ -792,6 +793,7 @@ a.hiring_mail_btn {
     font-size: 40px;
     line-height: 56px;
     color: #F7F9FC;
+    padding-top: 50px;
 }
 
 .contact_form_wrap {
@@ -799,6 +801,7 @@ a.hiring_mail_btn {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    padding-top: 50px;
 }
 
 .contact_form {

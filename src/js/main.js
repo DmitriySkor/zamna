@@ -47,3 +47,14 @@ $(document).ready(function () {
         loop: true
     });
 });
+
+// Плавный скролл
+$(document).ready(function () {
+    let $page = $('html, body');
+    $('a[href*="#"]').click(function () {
+        $page.animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 1400);
+        return false;
+    });
+});
