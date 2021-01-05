@@ -12,13 +12,21 @@
 }
 
 @media (min-width: 0) and (max-width: 1199px) {
-    .accordion_info {
-        padding: 24px 180px 24px 40px;
+    .accordion__head::before {
+        right: 68px;
     }
 
-    .accordion__head::before {
-        right: -100px;
+    .accordion__head h3 {
+        padding: 24px 155px 0 40px;
     }
+
+    .accordion__head > p {
+        padding: 8px 155px 24px 40px;
+    }
+    .accordion__content > p {
+        padding: 0 155px 24px 40px;
+    }
+
 
     .question__imag img {
         position: absolute;
@@ -312,17 +320,21 @@
         padding-left: 28px;
     }
 
-    .accordion_info {
-        padding: 20px;
-    }
-
     .accordion__head::before {
-        right: 0;
+        right: 20px;
         bottom: 0;
     }
 
     .accordion__head h3 {
-        padding-right: 40px;
+        padding-right: 60px;
+    }
+
+    .accordion__head > p {
+        padding-right: 60px;
+    }
+
+    .accordion__content > p {
+        padding-right: 60px;
     }
 
     .accordion_info {

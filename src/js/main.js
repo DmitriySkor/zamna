@@ -51,7 +51,7 @@ $(document).ready(function () {
 // Плавный скролл
 $(document).ready(function () {
     let $page = $('html, body');
-    $('a[href*="#"]').click(function () {
+    $('a[href="#footer_form"]').click(function () {
         $page.animate({
             scrollTop: $($.attr(this, 'href')).offset().top
         }, 1400);
