@@ -43,6 +43,7 @@
     .hero_img {
         width: 495px;
         height: auto;
+        right: 0;
     }
 
     .about_section p {
@@ -89,6 +90,7 @@
     .hero_img {
         width: 365px;
         height: auto;
+        right: 0;
     }
 
     .clients_item:last-child {
@@ -257,7 +259,7 @@
 
     .hero_img_small {
         display: block;
-        right: 0;
+        right: -240px;
         top: 19%;
     }
 

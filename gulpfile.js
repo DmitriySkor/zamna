@@ -125,7 +125,8 @@ function watch() {
     // Инициализация сервера
     browserSync.init({
         server: {
-            baseDir: "./build/"
+            baseDir: "./build/",
+            online: true
         }
     });
 

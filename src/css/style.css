@@ -142,7 +142,7 @@ a:focus {
 
 .hero_img {
     position: absolute;
-    right: 0;
+    right: -380px;
     top: 94px;
 }
 
@@ -197,6 +197,12 @@ a.contact_btn {
     font-weight: normal;
     font-size: 18px;
     line-height: 28px;
+    transition: ease 0.3s;
+}
+
+a.contact_btn:hover{
+    box-shadow: 0px 100px 80px rgba(255, 255, 255, 0.07), 0px 41.7776px 33.4221px rgba(255, 255, 255, 0.0503198), 0px 22.3363px 17.869px rgba(255, 255, 255, 0.0417275), 0px 12.5216px 10.0172px rgba(255, 255, 255, 0.035), 0px 6.6501px 5.32008px rgba(255, 255, 255, 0.0282725), 0px 2.76726px 2.21381px rgba(255, 255, 255, 0.0196802);
+    transition: ease 0.3s;
 }
 
 .contact_btn svg {
@@ -776,8 +782,13 @@ a.hiring_mail_btn {
     line-height: 28px;
     text-decoration: none;
     border-radius: 48px;
+    transition: ease 0.3s;
 }
 
+a.hiring_mail_btn:hover{
+    box-shadow: 0px 100px 80px rgba(255, 255, 255, 0.07), 0px 41.7776px 33.4221px rgba(255, 255, 255, 0.0503198), 0px 22.3363px 17.869px rgba(255, 255, 255, 0.0417275), 0px 12.5216px 10.0172px rgba(255, 255, 255, 0.035), 0px 6.6501px 5.32008px rgba(255, 255, 255, 0.0282725), 0px 2.76726px 2.21381px rgba(255, 255, 255, 0.0196802);
+    transition: ease 0.3s;
+}
 
 /* CONTACT FORM SECTION */
 
@@ -996,7 +1007,14 @@ textarea:focus:-ms-input-placeholder {
     border-radius: 48px;
     border: none;
     outline: none;
+    transition: ease 0.3s;
 }
+
+.button_forms:hover{
+    box-shadow: 0px 100px 80px rgba(255, 255, 255, 0.07), 0px 41.7776px 33.4221px rgba(255, 255, 255, 0.0503198), 0px 22.3363px 17.869px rgba(255, 255, 255, 0.0417275), 0px 12.5216px 10.0172px rgba(255, 255, 255, 0.035), 0px 6.6501px 5.32008px rgba(255, 255, 255, 0.0282725), 0px 2.76726px 2.21381px rgba(255, 255, 255, 0.0196802);
+    transition: ease 0.3s;
+}
+
 
 /* FOOTER */
 
@@ -1508,6 +1526,12 @@ a.awards_section_item:hover {
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    transition: ease 0.3s;
+}
+
+.premium__post_link a:hover{
+    box-shadow: 0px 100px 80px rgba(255, 255, 255, 0.07), 0px 41.7776px 33.4221px rgba(255, 255, 255, 0.0503198), 0px 22.3363px 17.869px rgba(255, 255, 255, 0.0417275), 0px 12.5216px 10.0172px rgba(255, 255, 255, 0.035), 0px 6.6501px 5.32008px rgba(255, 255, 255, 0.0282725), 0px 2.76726px 2.21381px rgba(255, 255, 255, 0.0196802);
+    transition: ease 0.3s;
 }
 
 .premium__post_line {
@@ -2089,4 +2113,11 @@ a.webinars__link {
 
 .webinar__foot_share-link a:first-child {
     margin-left: 0;
+}
+
+.duration_1{
+    --animate-duration: 0.5s;
+}
+.duration_2 {
+    --animate-duration: 1s;
 }

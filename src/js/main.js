@@ -58,3 +58,8 @@ $(document).ready(function () {
         return false;
     });
 });
+
+// Анимированое появление элементов
+$(document).ready(function () {
+    new WOW().init();
+});
