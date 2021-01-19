@@ -28,6 +28,27 @@ $(document).ready(function () {
             }
         }
     });
+
+
+    $('.carousel_reviews').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: true,
+        center: true,
+        navText: ['<img src="../img/arrow-prew.svg" alt="img">', '<img src="../img/arrow-next.svg" alt="img">'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            }
+        }
+    })
+
 });
 
 // Q&A

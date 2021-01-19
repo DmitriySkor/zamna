@@ -12,6 +12,15 @@
 }
 
 @media (min-width: 0) and (max-width: 1199px) {
+    .first_section {
+        right: -530px;
+    }
+
+    .hero_img lottie-player {
+        width: 684px !important;
+        height: 788px !important;
+    }
+
     .accordion__head::before {
         right: 68px;
     }
@@ -40,10 +49,8 @@
 }
 
 @media (min-width: 0) and (max-width: 991px) {
-    .hero_img {
-        width: 495px;
-        height: auto;
-        right: 0;
+    .first_section {
+        right: -630px;
     }
 
     .about_section p {
@@ -83,14 +90,13 @@
 }
 
 @media (min-width: 0) and (max-width: 767px) {
-    .main_menu {
-        display: none;
+    .first_section {
+        right: -750px;
+        top: 55px;
     }
 
-    .hero_img {
-        width: 365px;
-        height: auto;
-        right: 0;
+    .main_menu {
+        display: none;
     }
 
     .clients_item:last-child {
@@ -212,7 +218,11 @@
     }
 
     .mobile_menu_list_top ul li:last-child {
-        display: none;
+        margin-bottom: 40px;
+    }
+
+    .mobile_menu_list.active ul li:last-child {
+        margin-bottom: 40px;
     }
 
     .mobile_menu_list_btn {
@@ -225,6 +235,16 @@
 }
 
 @media (min-width: 0) and (max-width: 575px) {
+    .first_section {
+        right: -780px;
+        top: 0;
+    }
+
+    .hero_img lottie-player {
+        width: 600px !important;
+        height: 691px !important;
+    }
+
     .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
         padding-right: 16px;
         padding-left: 16px;
@@ -251,16 +271,6 @@
 
     .hero_content h1 {
         font-size: 40px;
-    }
-
-    .hero_img {
-        display: none;
-    }
-
-    .hero_img_small {
-        display: block;
-        right: -240px;
-        top: 19%;
     }
 
     .short__post {
